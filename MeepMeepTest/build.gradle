@@ -1,18 +1,3 @@
-plugins {
-    id 'java-library'
-}
-
-java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
-}
-
-repositories {
-    maven { url 'https://jitpack.io' }
-    maven { url = 'https://maven.brott.dev/'}
-}
-
-dependencies {
-    implementation 'com.github.NoahBres:MeepMeep:2.0.0'
-    implementation 'com.acmerobotics.roadrunner:core:0.5.5'
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cabf3041e2f8193395097113f31124fedfb114483ef8a7574fbd8655b8bcf8fe
+size 339
