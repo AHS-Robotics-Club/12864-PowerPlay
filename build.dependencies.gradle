@@ -1,26 +1,3 @@
-repositories {
-    mavenCentral()
-    google() // Needed for androidx
-    jcenter()  // Needed for tensorflow-lite
-    maven { url = 'https://maven.brott.dev/' }
-    flatDir {
-        dirs rootProject.file('libs')
-    }
-}
-
-dependencies {
-    implementation 'org.firstinspires.ftc:Inspection:7.1.0'
-    implementation 'org.firstinspires.ftc:Blocks:7.1.0'
-    implementation 'org.firstinspires.ftc:Tfod:7.1.0'
-    implementation 'org.firstinspires.ftc:RobotCore:7.1.0'
-    implementation 'org.firstinspires.ftc:RobotServer:7.1.0'
-    implementation 'org.firstinspires.ftc:OnBotJava:7.1.0'
-    implementation 'org.firstinspires.ftc:Hardware:7.1.0'
-    implementation 'org.firstinspires.ftc:FtcCommon:7.1.0'
-    implementation 'org.tensorflow:tensorflow-lite-task-vision:0.2.0'
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'org.firstinspires.ftc:gameAssets-FreightFrenzy:1.0.0'
-
-    implementation 'com.acmerobotics.dashboard:dashboard:0.4.4'
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0cb2805f0f39c80aada2e59834fda9b6d6f2e1e8f0825c4c7c5829cf7a353ad6
+size 994
