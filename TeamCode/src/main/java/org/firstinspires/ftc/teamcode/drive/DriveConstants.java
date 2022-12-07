@@ -4,13 +4,9 @@ import com.acmerobotics.dashboard.config.Config;
 import com.qualcomm.robotcore.hardware.PIDFCoefficients;
 
 /*
- * TODO: Generate new constants file at https://learnroadrunner.com/drive-constants.html
- */
-
-/*
  * Constants shared between multiple drive types.
  *
- * Tune or adjust the following constants to fit your robot. Note that the non-final
+ * TODO: Tune or adjust the following constants to fit your robot. Note that the non-final
  * fields may also be edited through the dashboard (connect to the robot's WiFi network and
  * navigate to https://192.168.49.1:8080/dash). Make sure to save the values here after you
  * adjust them in the dashboard; **config variable changes don't persist between app restarts**.
